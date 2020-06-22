@@ -30,7 +30,7 @@ public class ReverseArray {
     String str = "puru";
     String str2= new String("puru");
     String str3 = "puru";
-    ArrayTest rotate = new ArrayTest();
+    ReverseArray rotate = new ReverseArray();
     int arr[] = { 1, 2, 3, 4, 5, 6, 7 };
     rotate.leftRotate(arr, 2, 7);
     rotate.printArray(arr, 7);
